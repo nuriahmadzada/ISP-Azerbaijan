@@ -1,0 +1,164 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 03/12/2020 17:02
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-sketch-1:before { content: "\f100"; }
+.flaticon-building:before { content: "\f101"; }
+.flaticon-home:before { content: "\f102"; }
+.flaticon-sketch:before { content: "\f103"; }
+.flaticon-building-1:before { content: "\f104"; }
+.flaticon-crane:before { content: "\f105"; }
+.flaticon-project:before { content: "\f106"; }
+.flaticon-brickwall:before { content: "\f107"; }
+.flaticon-architect:before { content: "\f108"; }
+.flaticon-construction:before { content: "\f109"; }
+.flaticon-customer-support:before { content: "\f10a"; }
+.flaticon-repair-tools:before { content: "\f10b"; }
+.flaticon-maintenance:before { content: "\f10c"; }
+.flaticon-construction-1:before { content: "\f10d"; }
+.flaticon-construction-2:before { content: "\f10e"; }
+.flaticon-house:before { content: "\f10f"; }
+.flaticon-house-1:before { content: "\f110"; }
+.flaticon-helmet:before { content: "\f111"; }
+.flaticon-wrench:before { content: "\f112"; }
+.flaticon-beam:before { content: "\f113"; }
+.flaticon-plumber:before { content: "\f114"; }
+.flaticon-engineer:before { content: "\f115"; }
+.flaticon-hammer:before { content: "\f116"; }
+.flaticon-wall:before { content: "\f117"; }
+.flaticon-safety:before { content: "\f118"; }
+.flaticon-construction-3:before { content: "\f119"; }
+.flaticon-helmet-1:before { content: "\f11a"; }
+.flaticon-bricklayer:before { content: "\f11b"; }
+.flaticon-hammer-1:before { content: "\f11c"; }
+.flaticon-painting-roller:before { content: "\f11d"; }
+.flaticon-forklift:before { content: "\f11e"; }
+.flaticon-ruler:before { content: "\f11f"; }
+.flaticon-engineer-1:before { content: "\f120"; }
+.flaticon-brush:before { content: "\f121"; }
+.flaticon-shovel:before { content: "\f122"; }
+.flaticon-helmet-2:before { content: "\f123"; }
+.flaticon-block:before { content: "\f124"; }
+.flaticon-woodland:before { content: "\f125"; }
+.flaticon-lighter:before { content: "\f126"; }
+.flaticon-home-1:before { content: "\f127"; }
+.flaticon-gear:before { content: "\f128"; }
+.flaticon-excavator:before { content: "\f129"; }
+.flaticon-shopping-cart:before { content: "\f12a"; }
+.flaticon-shopping-cart-1:before { content: "\f12b"; }
+.flaticon-heart:before { content: "\f12c"; }
+.flaticon-heart-1:before { content: "\f12d"; }
+.flaticon-worker:before { content: "\f12e"; }
+.flaticon-engineer-2:before { content: "\f12f"; }
+.flaticon-engineer-3:before { content: "\f130"; }
+.flaticon-floor-plan:before { content: "\f131"; }
+.flaticon-house-design:before { content: "\f132"; }
+.flaticon-blueprint:before { content: "\f133"; }
+.flaticon-blueprint-1:before { content: "\f134"; }
+.flaticon-skyscraper:before { content: "\f135"; }
+.flaticon-prototype:before { content: "\f136"; }
+.flaticon-blueprint-2:before { content: "\f137"; }
+.flaticon-file-organizing:before { content: "\f138"; }
+.flaticon-graphic-tool:before { content: "\f139"; }
+.flaticon-plan:before { content: "\f13a"; }
+.flaticon-mail:before { content: "\f13b"; }
+.flaticon-phone-call:before { content: "\f13c"; }
+.flaticon-location:before { content: "\f13d"; }
+    
+    $font-Flaticon-sketch-1: "\f100";
+    $font-Flaticon-building: "\f101";
+    $font-Flaticon-home: "\f102";
+    $font-Flaticon-sketch: "\f103";
+    $font-Flaticon-building-1: "\f104";
+    $font-Flaticon-crane: "\f105";
+    $font-Flaticon-project: "\f106";
+    $font-Flaticon-brickwall: "\f107";
+    $font-Flaticon-architect: "\f108";
+    $font-Flaticon-construction: "\f109";
+    $font-Flaticon-customer-support: "\f10a";
+    $font-Flaticon-repair-tools: "\f10b";
+    $font-Flaticon-maintenance: "\f10c";
+    $font-Flaticon-construction-1: "\f10d";
+    $font-Flaticon-construction-2: "\f10e";
+    $font-Flaticon-house: "\f10f";
+    $font-Flaticon-house-1: "\f110";
+    $font-Flaticon-helmet: "\f111";
+    $font-Flaticon-wrench: "\f112";
+    $font-Flaticon-beam: "\f113";
+    $font-Flaticon-plumber: "\f114";
+    $font-Flaticon-engineer: "\f115";
+    $font-Flaticon-hammer: "\f116";
+    $font-Flaticon-wall: "\f117";
+    $font-Flaticon-safety: "\f118";
+    $font-Flaticon-construction-3: "\f119";
+    $font-Flaticon-helmet-1: "\f11a";
+    $font-Flaticon-bricklayer: "\f11b";
+    $font-Flaticon-hammer-1: "\f11c";
+    $font-Flaticon-painting-roller: "\f11d";
+    $font-Flaticon-forklift: "\f11e";
+    $font-Flaticon-ruler: "\f11f";
+    $font-Flaticon-engineer-1: "\f120";
+    $font-Flaticon-brush: "\f121";
+    $font-Flaticon-shovel: "\f122";
+    $font-Flaticon-helmet-2: "\f123";
+    $font-Flaticon-block: "\f124";
+    $font-Flaticon-woodland: "\f125";
+    $font-Flaticon-lighter: "\f126";
+    $font-Flaticon-home-1: "\f127";
+    $font-Flaticon-gear: "\f128";
+    $font-Flaticon-excavator: "\f129";
+    $font-Flaticon-shopping-cart: "\f12a";
+    $font-Flaticon-shopping-cart-1: "\f12b";
+    $font-Flaticon-heart: "\f12c";
+    $font-Flaticon-heart-1: "\f12d";
+    $font-Flaticon-worker: "\f12e";
+    $font-Flaticon-engineer-2: "\f12f";
+    $font-Flaticon-engineer-3: "\f130";
+    $font-Flaticon-floor-plan: "\f131";
+    $font-Flaticon-house-design: "\f132";
+    $font-Flaticon-blueprint: "\f133";
+    $font-Flaticon-blueprint-1: "\f134";
+    $font-Flaticon-skyscraper: "\f135";
+    $font-Flaticon-prototype: "\f136";
+    $font-Flaticon-blueprint-2: "\f137";
+    $font-Flaticon-file-organizing: "\f138";
+    $font-Flaticon-graphic-tool: "\f139";
+    $font-Flaticon-plan: "\f13a";
+    $font-Flaticon-mail: "\f13b";
+    $font-Flaticon-phone-call: "\f13c";
+    $font-Flaticon-location: "\f13d";
