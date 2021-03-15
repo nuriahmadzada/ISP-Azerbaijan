@@ -461,8 +461,7 @@
 .circle-container-in img{
   /* width: 100px;© */
   border-radius: 50%;
-  width: 50%;
-  height: 50%;
+  height: 120px;
 }
 .circle-container > ul li {
   display: block;
