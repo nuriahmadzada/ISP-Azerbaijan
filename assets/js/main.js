@@ -59,43 +59,6 @@
   });
 
   /*-------------------------------------------------------------------------------
-  Sticky Header
-    -------------------------------------------------------------------------------*/
-  var header = $(".can-sticky");
-  var headerHeight = header.innerHeight();
-
-  function doSticky() {
-    if (window.pageYOffset > headerHeight) {
-      header.addClass("sticky");
-    } else {
-      header.removeClass("sticky");
-    }
-
-    if (window.pageYOffset > $(".sigma_subheader").innerHeight()) {
-      $(".sigma_subheader-nav").addClass("sticky");
-    } else {
-      $(".sigma_subheader-nav").removeClass("sticky");
-    }
-  }
-  doSticky();
-
-  window.onscroll = function () {
-    myFunction();
-  };
-  let header1 = document.querySelector(".sigma_header-middle");
-  let sticky = header1.offsetTop;
-
-  function myFunction() {
-    if (window.pageYOffset > sticky) {
-      header1.classList.add("sticky");
-      header1.style.backgroundColor = "rgb(247 247 247)";
-    } else {
-      header1.classList.remove("sticky");
-      header1.style.backgroundColor = "rgb(247 247 247)";
-    }
-  }
-
-  /*-------------------------------------------------------------------------------
   Tooltips
   -------------------------------------------------------------------------------*/
   $('[data-toggle="tooltip"]').tooltip();
@@ -415,33 +378,35 @@
   $(window).on("resize", function () {});
 })(jQuery);
 
+
+
+// projects slide
 $(document).ready(function () {
   $(".owl-custom-slider").owlCarousel({
     margin: 10,
     loop: true,
     autoWidth: false,
     dots: false,
-    autoplay: false,
-    autoplayTimeout: 4000,
+    nav: false,
+    autoplay: true,
+    autoplayTimeout: 2000,
     autoplayHoverPause: true,
     responsiveClass: true,
     responsive: {
       0: {
         items: 1,
-        nav: false,
       },
       600: {
         items: 3,
-        nav: false,
       },
       1000: {
         items: 3,
-        nav: false,
       },
     },
   });
 });
 
+// brands slide
 $(document).ready(function () {
   $(".section-brands .item-brands").owlCarousel({
     loop: true,
@@ -465,6 +430,7 @@ $(document).ready(function () {
   });
 });
 
+// experts slide
 $(document).ready(function () {
   $(".owl-custom-slider-experts").owlCarousel({
     margin: 10,
@@ -492,10 +458,12 @@ $(document).ready(function () {
   });
 });
 
+// isotope
 var $grid = $(".grid").isotope({
   // options
 });
-// filter items on button click
+
+// isotop header nav active class and filter items
 $(".job-category-menu-filter").on("click", "li", function () {
   var filterValue = $(this).attr("data-filter");
   $grid.isotope({ filter: filterValue });
@@ -505,3 +473,38 @@ $(".job-category-menu-filter").on("click", "li", function () {
     $(this).addClass('activeCat');
   });
 });
+
+// sticky header
+var header = $(".can-sticky");
+  var headerHeight = header.innerHeight();
+
+  function doSticky() {
+    if (window.pageYOffset > headerHeight) {
+      header.addClass("sticky");
+    } else {
+      header.removeClass("sticky");
+    }
+
+    if (window.pageYOffset > $(".sigma_subheader").innerHeight()) {
+      $(".sigma_subheader-nav").addClass("sticky");
+    } else {
+      $(".sigma_subheader-nav").removeClass("sticky");
+    }
+  }
+  doSticky();
+
+  window.onscroll = function () {
+    myFunction();
+  };
+  let header1 = document.querySelector(".sigma_header-middle");
+  let sticky = header1.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header1.classList.add("sticky");
+      header1.style.backgroundColor = "rgb(247 247 247)";
+    } else {
+      header1.classList.remove("sticky");
+      header1.style.backgroundColor = "rgb(247 247 247)";
+    }
+  }

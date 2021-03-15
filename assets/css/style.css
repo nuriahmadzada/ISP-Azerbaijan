@@ -5345,7 +5345,8 @@ table img {
 
 .widget-about-author-inner img {
     border-radius: 50%;
-    width: 150px;
+    width: 130px;
+    height: 120px;
     margin: 0 auto 20px;
 }
 
@@ -10245,4 +10246,12 @@ align-items: center;
 .activeCat{
   color: white !important;
   background-color: #354198;
+}
+
+.services-custom .owl-carousel .owl-stage-outer{
+  padding: 20px 0px;
+}
+.brands .owl-carousel .owl-item img{
+  object-fit: contain;
+    min-height: 200px;
 }
