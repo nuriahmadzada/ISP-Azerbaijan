@@ -384,17 +384,18 @@
 $(document).ready(function () {
   $(".owl-custom-slider").owlCarousel({
     margin: 10,
-    loop: true,
+    // loop: true,
     autoWidth: false,
     dots: false,
     nav: false,
-    autoplay: true,
-    autoplayTimeout: 2000,
-    autoplayHoverPause: true,
+    // autoplay: true,
+    // autoplayTimeout: 2000,
+    // autoplayHoverPause: true,
     responsiveClass: true,
     responsive: {
       0: {
         items: 1,
+        // stagePadding: 30
       },
       600: {
         items: 3,
