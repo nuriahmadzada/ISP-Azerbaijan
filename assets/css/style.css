@@ -1737,10 +1737,14 @@ blockquote::before{
   font-size: 32px;
 }
 
-.section-title {
-    position: relative;
-    margin-bottom: 50px;
-    max-width: 550px;
+.section .about-us-img_section img{
+  width: 350px;
+  padding-right: 20px;
+  float: left;
+}
+
+.section .about-us-img_section .text{
+  text-align: justify;
 }
 .section-title.text-center{
   margin: 0 auto 50px;
@@ -2707,6 +2711,9 @@ table img {
 .sigma_header.header-1.sticky .aside-toggler.desktop-toggler span,
 .sigma_header.header-1.sticky.header-light .aside-toggler.desktop-toggler span{
   background-color: #fff;
+}
+.sigma_header-middle .dropdown button:focus{
+  outline: none !important;
 }
 
 .sigma_header-top {
@@ -8944,6 +8951,7 @@ td.remove {
 .sigma_portfolio-item img{
   width: 100%;
   min-height: 248px;
+  object-fit: cover;
 }
 .sigma_portfolio-item span{
   color: #fff;
@@ -10235,6 +10243,7 @@ align-items: center;
   border-radius: 4px;
   cursor: pointer;
   color: #354198;
+  min-width: 150px;
 }
 .job-category-menu ul li:hover{
   color: white;
@@ -10254,4 +10263,7 @@ align-items: center;
   object-fit: contain;
     min-height: 200px;
     height: 200px;
+}
+.section-brands{
+  padding-top: 60px !important;
 }

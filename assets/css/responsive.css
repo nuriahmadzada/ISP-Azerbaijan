@@ -146,6 +146,16 @@
     margin-bottom: 0;
     box-shadow: none;
     padding: 0 20px;
+    /* order: 2; */
+  }
+  .header-1 .sigma_logo-wrapper{
+    order: 2;
+  }
+  .header-1 .sigma_header-controls{
+    order: 1;
+  }
+  .header-1 .dropdown{
+    order: 3;
   }
   .header-2 .sigma_header-controls ul li:not(.aside-trigger-left){
     display: none;
@@ -333,6 +343,8 @@
   .sigma_header .sigma_search-adv {
       display: none;
   }
+
+
 
   .sigma_header-controls.style-2 .aside-toggler.style-2.desktop-toggler,
   .aside-toggler.style-2.desktop-toggler{

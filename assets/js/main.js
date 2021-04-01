@@ -384,18 +384,18 @@
 $(document).ready(function () {
   $(".owl-custom-slider").owlCarousel({
     margin: 10,
-    // loop: true,
+    loop: true,
     autoWidth: false,
     dots: false,
     nav: false,
-    // autoplay: true,
-    // autoplayTimeout: 2000,
-    // autoplayHoverPause: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplaySpeed:500,
+    autoplayHoverPause: true,
     responsiveClass: true,
     responsive: {
       0: {
         items: 1,
-        // stagePadding: 30
       },
       600: {
         items: 3,
@@ -415,7 +415,9 @@ $(document).ready(function () {
     margin: 0,
     dots: false,
     autoplay: true,
-    autoplayTimeout: 1000,
+    slideTransition: 'linear',
+    autoplayTimeout: 4040,
+    autoplaySpeed: 4000,
     autoplayHoverPause: true,
     responsive: {
       0: {
@@ -509,3 +511,7 @@ var header = $(".can-sticky");
       header1.style.backgroundColor = "rgb(247 247 247)";
     }
   }
+
+  $('.selectpicker').selectpicker({
+    size: 10
+  });
