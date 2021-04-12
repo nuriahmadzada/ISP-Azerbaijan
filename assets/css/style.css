@@ -3646,6 +3646,15 @@ table img {
     display: none;
 }
 
+.blog-grid{
+  padding-top: 50px !important;
+}
+
+.blog-grid .sidebar{
+  margin-bottom: 20px;
+  padding: 0px 0px;
+}
+
 .sigma_aside.open {
     left: 0;
 }
@@ -4621,7 +4630,9 @@ table img {
 .sigma_post .sigma_post-thumb img{
   width: 100%;
   transition: .3s;
-  min-height: 236px;
+  min-height: 304px !important;
+  max-height: 304px !important;
+  object-fit: cover;
 }
 .gallery-thumb img{
   border-radius: 25px;
@@ -5502,13 +5513,13 @@ table img {
   color: #fff;
 }
 .sidebar-widget.widget-categories ul li a span{
-  border-radius: 50%;
+  border-radius: 8px;
   background-color: #354198;
   color: #fff;
   font-size: 13px;
-  width: 30px;
+  width: 80px;
   transition: .3s;
-  height: 30px;
+  height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6707,6 +6718,13 @@ td.remove {
 }
 
 /* 6.7. Call to Actions */
+
+.section .contact-box{
+  position: absolute;
+  left: 145px;
+  bottom: 0px;
+}
+
 .sigma_cta{
   padding: 30px;
   border-radius: 25px;
@@ -8424,8 +8442,10 @@ td.remove {
 }
 .sigma_testimonial .sigma_testimonial-author img{
   margin-right: 15px;
+  width: 70px;
+  height: 65px;
   border-radius: 50%;
-  width: 75px;
+  object-fit: cover;
 }
 .sigma_testimonial .sigma_testimonial-author h6{
   margin-bottom: 0;
@@ -10266,4 +10286,10 @@ align-items: center;
 }
 .section-brands{
   padding-top: 60px !important;
+}
+.text-danger{
+  color: #ef0017!important;
+    font-size: 12px;
+    padding-left: 10px;
+    margin: 5px 0px;
 }
